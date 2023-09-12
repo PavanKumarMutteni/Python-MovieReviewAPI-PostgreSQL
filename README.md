@@ -1,11 +1,5 @@
 # Python-MovieReviewAPI-PostgreSQL
 
- Please config below properties to run this API in your Local Envirnoment
- You must install the postgresql in your local Envirnoment
- Then run the below script in your psql server (For creating the movies table)
- create table movies(entryno int PRIMARY KEY NOT NULL, moviename varchar(50) NOT NULL, reviewscore float(4) NOT    NULL, synopsis varchar(256) NOT NULL, director varchar(50) NOT NULL, yearofrelease int NOT NULL)
- Modify the database parameters in dbsetup.py file (database, user, password, host and port parameters)
-
  API Supported End Points
 
      1. Add Movie -> This end point will add/insert new movie record
